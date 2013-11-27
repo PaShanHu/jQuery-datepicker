@@ -261,12 +261,10 @@
 				//初始化控件，弹出控件 
 				$input.one('click',function(){
 					//设置坐标
-					var t=$input.offset().top-$body.offset().top,l=$input.offset().left-$body.offset().left,h=$input.outerHeight();
-					if(t+h>$(window).height()){
-						t=t-h-200;
-					}
+					var t=$input.offset().top,l=$input.offset().left-$body.offset().left,
+						h=$input.outerHeight(),st=$(window).scrollTop();
 					calendar.offset({
-						top: t+h+8,
+						top: t+h+8+st,
 	                    left: l+1
 					});
 				});
