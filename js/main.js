@@ -41,7 +41,7 @@ require(['jquery','easing','datepicker'],function($){
 		$('body').on('click','.to-bottom',function(){
 			$('html,body').animate({
 				scrollTop:$(document).height()-$window.height()
-			},1000,'easeInOutCirc');
+			},1000,'linear');
 		});
 
 		/*-----date picker------*/
