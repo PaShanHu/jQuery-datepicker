@@ -6,11 +6,17 @@ tags: [datepicker, jquery, plugin]
 extraCss: [/css/datepicker.css, css/jqueryplugin.css]
 ---
 
+###前言
+
 在用过一些jquery的日期插件后，萌发了自己写一个的想法，好吧，是在别人的基础上进行扩充与改造。 ;-)
 
 首先感谢 **najlepsiwebdesigner**的**[foundation-datepicker](https://github.com/najlepsiwebdesigner/foundation-datepicker)**，这是本插件的基础，我在这个基础上添加删减了一些功能，重新写了一个皮肤，然后有了本插件。
 
 本插件（datepicker）是jquery插件，与jquery协同工作，主要是一个弹出框，共用户选择日期，并为日期提供格式化，提高用户的日期输入体验，一定程度防止非法输入。另外，插件比一般日期插件增加了直接选择月份、年份的功能，这算是*亮点*。
+
+项目地址：(https://github.com/PaShanHu/jQuery-datepicker/tree/gh-pages)
+
+###插件介绍
 
 ####Plugin Info（插件信息）
 
@@ -40,7 +46,7 @@ extraCss: [/css/datepicker.css, css/jqueryplugin.css]
 
 <p>参数设置：<input type='text' class='date-picker' id='example2' /></p>
 
-####Get Started（初步使用）
+###Get Started（插件使用）
 
 1.  引入css：
 
@@ -65,7 +71,7 @@ extraCss: [/css/datepicker.css, css/jqueryplugin.css]
 		end: null//结束日期
 	};
 
-####下一版本
+###下一版本
 
 增加主题或者皮肤选项；添加选择等事件。
 
