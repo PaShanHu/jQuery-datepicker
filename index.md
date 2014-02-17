@@ -1,10 +1,10 @@
 ---
 layout: default
 title: jQuery插件-datepicker
-tags: [datepicker, jquery, plugin]
 postDate: 2013-11-27
-extraCss: [css/datepicker.css, css/jqueryplugin.css]
-extraJs: [js/lib/jquery.datepicker.js]
+tags: [datepicker, jquery, plugin]
+extraCss: [/css/datepicker.css, /css/jqueryplugin.css]
+extraJs: [/js/lib/jquery.datepicker.js]
 ---
 
 在用过一些jquery的日期插件后，萌发了自己写一个的想法，好吧，是在别人的基础上进行扩充与改造。 ;-)
