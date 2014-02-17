@@ -3,7 +3,7 @@ layout: default
 title: jQuery插件-datepicker
 postDate: 2013-11-27
 tags: [datepicker, jquery, plugin]
-extraCss: [/css/datepicker.css, /css/jqueryplugin.css]
+extraCss: [/css/datepicker.css, css/jqueryplugin.css]
 extraJs: [/js/lib/jquery.datepicker.js]
 ---
 
