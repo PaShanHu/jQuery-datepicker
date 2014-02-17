@@ -11,6 +11,9 @@
     border-radius: 6px;
     box-shadow: 0 0 3px #000;
 }
+.datepicker li{
+    margin: 0;
+}
 .datepicker .date-box{
     width: 100%;
 }
